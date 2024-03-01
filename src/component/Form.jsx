@@ -13,7 +13,7 @@ const MyForm = () => {
     };
 
     return (
-        
+
         <div className="flex items-center justify-center">
             <Form
                 name="basic"
@@ -33,7 +33,7 @@ const MyForm = () => {
                 </Form.Item>
 
                 <Form.Item
-                className='p-2'
+                    className='p-2'
                     name="email"
                     rules={[
                         { required: true, message: 'Please input your email!' },
@@ -44,15 +44,15 @@ const MyForm = () => {
                 </Form.Item>
 
                 <Form.Item
-                className='p-2'
-                    name="mobile"  
+                    className='p-2'
+                    name="mobile"
                     rules={[{ required: true, message: 'Please input your mobile number!' }]}
                 >
                     <Input placeholder=" Mobile Number" className="w-96 p-2 border rounded" />
                 </Form.Item>
 
                 <Form.Item
-                className='p-2'
+                    className='p-2'
                     name="message"
                     rules={[{ required: true, message: 'Please input your message!' }]}
                 >
@@ -66,7 +66,7 @@ const MyForm = () => {
                 </Form.Item>
             </Form>
         </div>
-       
+
     );
 };
 
