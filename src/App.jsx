@@ -180,7 +180,7 @@ function App() {
         <div className="w-full h-screen  bg-teal-600  text-white text-center">
           Banner
         </div>
-        <div className="w-full h-screen bg-slate-600 text-white text-center grid gap-4 grid-cols-5 grid-rows-2 p-4 max-md:grid-cols-1 row-10">
+        <div className="w-full h-screen bg-slate-600 text-white text-center grid gap-4 grid-cols-5 grid-rows-2 p-4 max-md:grid-cols-2 ">
           <div className="grid bg-orange-500 rounded-lg "></div>
           <div className="grid bg-orange-500 rounded-lg"></div>
           <div className="grid bg-orange-500 rounded-lg"></div>
