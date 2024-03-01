@@ -10,7 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "antd": "^5.14.2",
+=======
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+>>>>>>> 7175bff0c826991a09589505cbc3ba774d1e6922
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
